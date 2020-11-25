@@ -12,7 +12,7 @@ namespace TestLogin.Pages
 {
     public class LoginModel : PageModel
     {
-        public string Message = "ETO:";
+        public string Message = "ETO DA:";
         public string LoginState = "";
         private readonly TestLogin.Pages.Models.UserContext _context;
         public bool isGood;
